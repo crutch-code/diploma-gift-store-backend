@@ -17,7 +17,8 @@ import java.util.UUID;
 @ApplicationScoped
 public class UserRepository {
 
-    private final static String PATH = "R:/git-repositories/myself-repositories/diploma-gift-store-back/database/users.json";
+//    private final static String PATH = "R:/git-repositories/myself-repositories/diploma-gift-store-back/database/users.json";
+    private final static String PATH = "C:\\Users\\Boris.Stupin\\self-repositories\\diploma-gift-store-backend\\database\\users.json";
 
     List<UserDto> users;
 

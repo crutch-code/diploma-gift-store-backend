@@ -15,7 +15,8 @@ import java.util.*;
 @ApplicationScoped
 public class CollectionRepository {
 
-    private final static String PATH = "R:/git-repositories/myself-repositories/diploma-gift-store-back/database/collections-by-user.json";
+//    private final static String PATH = "R:/git-repositories/myself-repositories/diploma-gift-store-back/database/collections-by-user.json";
+    private final static String PATH = "C:\\Users\\Boris.Stupin\\self-repositories\\diploma-gift-store-backend\\database\\collections-by-user.json";
 
     Map<String, List<Collection>> collections;
 
