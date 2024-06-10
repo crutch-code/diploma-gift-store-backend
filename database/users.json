@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "email": "test@test.com",
+    "jwt": "test",
+    "username": "test user",
+    "password": "test"
+  },
+  {
+    "id": "2",
+    "email": "babak.olga@mail.com",
+    "jwt": "test",
+    "username": "babak.olga",
+    "password": "test"
+  },
+  {
+    "id": "339c9805-ad05-49c9-8996-70cb91ece16e",
+    "email": "asd@asd.er",
+    "jwt": "asdfasdf",
+    "username": "asd",
+    "password": "123123"
+  },
+  {
+    "id": "e145cd1c-1687-4ad3-8d0b-ff8dd3e413e4",
+    "email": "asd@asd.er",
+    "jwt": "asdfasdf",
+    "username": "asdd",
+    "password": "123123"
+  }
+]
