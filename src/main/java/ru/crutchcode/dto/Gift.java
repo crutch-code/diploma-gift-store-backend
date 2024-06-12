@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Gift {
 
-    private int id;
+    private String id;
 
     private String picture;
 
@@ -18,11 +18,11 @@ public class Gift {
 
     private List<GiftRelativity> relativity;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public Gift setId(int id) {
+    public Gift setId(String id) {
         this.id = id;
         return this;
     }
