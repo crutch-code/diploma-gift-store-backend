@@ -18,8 +18,8 @@ public class GiftComparator implements Comparator<Gift> {
                 relLeft.map(
                         relativity -> relRight.map(
                                 giftRelativity -> Double.compare(
-                                        relativity.getPercents(), giftRelativity.getPercents())
-                        ).orElse(1)
+                                        giftRelativity.getPercents(),relativity.getPercents())
+                        ).orElse(-1)
                 ).orElse(-1);
     }
 }

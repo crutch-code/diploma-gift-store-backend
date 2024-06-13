@@ -10,9 +10,9 @@ public class GiftRelativity {
 
     private int countScore;
 
-    private Double assignCount;
+    private int assignCount;
 
-    private Double disapproveScore;
+    private int disapproveScore;
 
 
     public String getCategory() {
@@ -51,20 +51,20 @@ public class GiftRelativity {
         return this;
     }
 
-    public Double getAssignCount() {
+    public int getAssignCount() {
         return assignCount;
     }
 
-    public GiftRelativity setAssignCount(Double assignCount) {
+    public GiftRelativity setAssignCount(int assignCount) {
         this.assignCount = assignCount;
         return this;
     }
 
-    public Double getDisapproveScore() {
+    public int getDisapproveScore() {
         return disapproveScore;
     }
 
-    public GiftRelativity setDisapproveScore(Double disapproveScore) {
+    public GiftRelativity setDisapproveScore(int disapproveScore) {
         this.disapproveScore = disapproveScore;
         return this;
     }
